@@ -1,0 +1,14 @@
+ ackage Problem3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		 
+		GeneralInfo record1 = new GeneralInfo(1, "Dipesh", 30, "Rawal");
+		FinancialInfo record2 = new FinancialInfo(1, 2000, 300, 5000);
+		
+		System.out.println(record1);
+		System.out.println(record2);
+	}
+
+}
