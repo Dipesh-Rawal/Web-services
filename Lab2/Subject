@@ -1,0 +1,15 @@
+package Problem1;
+
+public class Subject {
+	String title, description, faculty;
+	int number;
+
+	public Subject() {
+	}
+
+	@Override
+	public String toString() {
+		return "Subject [title=" + title + ", description=" + description + ", faculty=" + faculty + ", number= " + number
+				+ "]";
+        }
+        
